@@ -1,2 +1,2 @@
-# classjs
-newone
+# psychic-game
+jshomework
