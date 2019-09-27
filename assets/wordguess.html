@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>Loops</title>
-   
-  </head>
-  <body>
- <h2><span ><strong>JS HomeWork Word Guesses </strong></span></h2>
-    <h1>The Psychic Game </h1>
-    <h2> Basic word Guess </h2>
-    <p id="p3">
-    <p id="p2"></p>
-    <h2>Go ahead and type </p></h2>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Guess Game</title>
 
-    <h5>Wins:<p id="wins"></p></h5>  
-    <h5>Loses:<p id="p1"></p></h5>
-    <h5>Guesses Left:</h5>
-    <h5 >Your Gueses so far:</p></h5>
-        
+  
+    <link rel="stylesheet" href="css/style.css">
+    <a href="../index.html"> Link to letter guess</a>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Word Guess Game</h1>
+        <p>Press any key to get started!</p>
+
+        <!-- When user presses any key, start game -->
+        <h4>Wins</h4>
+        <div id="totalWins"></div>
+        <h4>Current Word</h4>
+        <div id="currentWord"></div>
+        <h4>Guesses Remaining</h4>
+        <div id="remainingGuesses"></div>
+        <h4>Letters Guessed</h4>
+        <div id="guessedLetters"></div>
+
+    </div>
+
+<!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="javascript/word-g.js"></script>
-  </body>
+</body>
 </html>
-
-
